@@ -1,0 +1,111 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lobster', cursive;
+  line-height: 1.7em;
+}
+
+a {
+  color:#f7f8f8;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px;
+}
+/*Utility Classes*/
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.text-primary {
+  color: #69BFB7; 
+}
+
+.lead {
+  font-size: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  color: beige;
+  background: #628BBF;
+  padding: 2px 10px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #69BFB7;
+  color: rgb(53, 90, 95);
+}
+
+/*Navbar*/
+#navbar {
+  background: #628BBF;
+  color:#f7f8f8;
+  overflow: auto;
+}
+
+#navbar a {
+  color:#BFCDD9;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style:none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+  background: #4e78ad;
+  color: #42BDCD;
+}
+
+/*Showcase*/
+#showcase {
+  background: url('../img/pexels-photo-12720678.jpeg') no-repeat
+  center center/cover;
+  height: 600px;
+}
+#showcase .showcase-content {
+  color: rgb(53, 90, 95);
+  text-align: center;
+  padding-top: 150px;
+}
+#showcase .showcase-content h1 {
+  font-size: 40px;
+  line-height: 1.1em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 10px;
+  line-height: 1.7em;
+}
+/*color:#628BBF #BFCDD9 #69BFB7 #42BDCD #D2C5BF */
